@@ -5,8 +5,28 @@
   display: flex;
   justify-content: space-between;
 }
+.band {
+  color: black;
+  font-weight: 900;
+  font-size: 25px;
+  cursor: pointer;
+}
+.band:hover {
+  color: #ff900e;
+}
 .menu {
   display: flex;
   align-items: center;
   gap: 40px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 18px;
+}
+.menu a:hover {
+  color: #ff900e;
+  transition: 0.6ms;
 }
