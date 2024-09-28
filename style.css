@@ -30,3 +30,14 @@
   color: #ff900e;
   transition: 0.6ms;
 }
+.banner {
+  margin: 40px 0;
+  text-align: center;
+}
+.banner-title {
+  font-size: 35px;
+  font-weight: 900;
+}
+.banner-text {
+  line-height: 25px;
+}
