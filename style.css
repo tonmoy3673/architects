@@ -60,3 +60,16 @@
   max-width: 1200px;
   max-height: 400px;
 }
+
+/* =========== Media Query ============ */
+@media (max-width: 576px) {
+  .main-container {
+    padding: 2% 3%;
+  }
+
+  .banner-img {
+    max-width: 350px;
+    height: 200px;
+    margin: 0 auto;
+  }
+}
