@@ -69,7 +69,7 @@
 /* =========== Media Query ============ */
 @media (max-width: 576px) {
   .main-container {
-    padding: 2% 3%;
+    padding: 5% 3%;
   }
 
   .navbar {
@@ -79,8 +79,8 @@
   }
   .band {
     text-align: center;
-    padding: 0px;
-    margin: 0px;
+    padding-bottom: 20px;
+    font-size: 28px;
   }
   .menu {
     display: flex;
