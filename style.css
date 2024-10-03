@@ -83,14 +83,19 @@
   width: 342px;
   height: 342px;
 }
-
+.feature-text {
+  font-size: 22px;
+}
 .feature-title {
   padding: 5px 0;
 }
 .quick-list {
-  color: #8f8c8b;
+  color: #607d8b;
 }
-
+.feature {
+  padding: 5px 0;
+  color: #ff900e;
+}
 /* =========== Media Query ============ */
 @media (max-width: 576px) {
   .main-container {
