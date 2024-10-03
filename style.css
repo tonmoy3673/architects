@@ -87,6 +87,9 @@
 .feature-title {
   padding: 5px 0;
 }
+.quick-list {
+  color: #8f8c8b;
+}
 
 /* =========== Media Query ============ */
 @media (max-width: 576px) {
