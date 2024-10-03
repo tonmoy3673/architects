@@ -84,6 +84,10 @@
   height: 342px;
 }
 
+.feature-title {
+  padding: 5px 0;
+}
+
 /* =========== Media Query ============ */
 @media (max-width: 576px) {
   .main-container {
