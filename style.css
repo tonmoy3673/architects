@@ -155,7 +155,20 @@
 .exp-box p {
   font-size: 18px;
 }
-
+.fact {
+  padding: 30px 0;
+  margin-top: 60px;
+}
+.fact-title {
+  font-size: 30px;
+}
+.size {
+  width: 500px;
+}
+.fact-box {
+  margin-top: 50px;
+  padding: 40px 0;
+}
 /* =========== Media Query ============ */
 @media (max-width: 576px) {
   .main-container {
