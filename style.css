@@ -241,6 +241,19 @@
     max-width: 300px;
     height: 400px;
   }
+  .fact-title {
+    text-align: center;
+  }
+  .size {
+    text-align: center;
+    width: fit-content;
+  }
+  .fact-box {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+  }
 }
 @media (max-width: 300px) {
   .banner-img {
@@ -248,6 +261,7 @@
     height: 150px;
   }
 }
+
 @media (min-width: 577px) and (max-width: 1110px) {
   .banner-img {
     max-width: 500px;
@@ -285,5 +299,18 @@
   }
   .feature-image {
     margin-top: 25px;
+  }
+  .fact-box {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin: 20px;
+  }
+  .fact-title {
+    text-align: center;
+  }
+  .size {
+    text-align: center;
+    width: fit-content;
   }
 }
