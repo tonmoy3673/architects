@@ -97,6 +97,12 @@
   color: #ff900e;
 }
 
+.experience {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 .col {
   width: 4px;
   height: 70px;
@@ -112,6 +118,18 @@
   font-size: 30px;
 }
 
+.architect-photo img {
+  width: 650px;
+  height: 990px;
+}
+.all-cards {
+  padding: 15px 0;
+}
+.exp-card {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
 /* =========== Media Query ============ */
 @media (max-width: 576px) {
   .main-container {
