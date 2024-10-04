@@ -214,6 +214,21 @@
     height: 200px;
     margin: 0 auto;
   }
+  .feature-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .feature-text {
+    text-align: center;
+  }
+  .feature-image {
+    display: block;
+  }
+  .feature-image img {
+    max-width: 300px;
+    height: 300px;
+    margin-top: 10px;
+  }
 }
 @media (max-width: 300px) {
   .banner-img {
