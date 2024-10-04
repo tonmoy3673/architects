@@ -96,6 +96,22 @@
   padding: 5px 0;
   color: #ff900e;
 }
+
+.col {
+  width: 4px;
+  height: 70px;
+  background-color: #ff900e;
+  border-radius: 10px;
+}
+.exp-title {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+.main-text {
+  font-size: 30px;
+}
+
 /* =========== Media Query ============ */
 @media (max-width: 576px) {
   .main-container {
