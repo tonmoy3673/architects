@@ -167,7 +167,25 @@
 }
 .fact-box {
   margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 60px;
+  padding: 0 3%;
+}
+.single-box {
+  text-align: center;
+  border: 1px solid #ff900e;
   padding: 40px 0;
+  cursor: pointer;
+  transition: 0.3ms;
+  border-radius: 7px;
+}
+.single-box:hover {
+  background-color: #ff900e;
+}
+.value {
+  padding: 4px 0;
+  font-size: 35px;
 }
 /* =========== Media Query ============ */
 @media (max-width: 576px) {
