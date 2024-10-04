@@ -117,10 +117,15 @@
 .main-text {
   font-size: 30px;
 }
+.gap-less {
+  margin: 10px 0 20px;
+}
 
 .architect-photo img {
   width: 650px;
-  height: 990px;
+  height: 983px;
+  position: relative;
+  z-index: -1;
 }
 .all-cards {
   padding: 15px 0;
@@ -130,6 +135,27 @@
   background-color: #fff;
   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
 }
+.exp-box {
+  padding: 25px 20px;
+  background-color: #ff900e;
+  width: 200px;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  z-index: 10;
+  position: absolute;
+  margin-top: -70px;
+  margin-left: -45px;
+}
+.box-text {
+  color: white;
+  padding: 3px 0;
+  font-size: 30px;
+}
+.exp-box p {
+  font-size: 18px;
+}
+
 /* =========== Media Query ============ */
 @media (max-width: 576px) {
   .main-container {
